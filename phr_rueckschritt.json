@@ -1,0 +1,868 @@
+{
+ "cells": [
+  {
+   "family": "gap",
+   "size": 0,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1199
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 99,
+     "lps": 1224
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 437
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 439
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 544
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 547
+    }
+   }
+  },
+  {
+   "family": "gap",
+   "size": 1,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 89,
+     "lps": 2423
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 92,
+     "lps": 2585
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 99,
+     "lps": 1266
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 99,
+     "lps": 1292
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 98,
+     "lps": 2036
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 99,
+     "lps": 2009
+    }
+   }
+  },
+  {
+   "family": "assign_side",
+   "size": 0,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 382
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 83,
+     "lps": 323
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 323
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 82,
+     "lps": 282
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 395
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 71,
+     "lps": 305
+    }
+   }
+  },
+  {
+   "family": "assign_side",
+   "size": 1,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 536
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 548
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 528
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 537
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 99,
+     "lps": 820
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 99,
+     "lps": 932
+    }
+   }
+  },
+  {
+   "family": "setpart",
+   "size": 0,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 542
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 65,
+     "lps": 414
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 455
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 65,
+     "lps": 335
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 480
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 73,
+     "lps": 366
+    }
+   }
+  },
+  {
+   "family": "setpart",
+   "size": 1,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 91,
+     "lps": 2473
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 91,
+     "lps": 2629
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 91,
+     "lps": 2138
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 91,
+     "lps": 2278
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 85,
+     "lps": 2138
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 84,
+     "lps": 2239
+    }
+   }
+  },
+  {
+   "family": "binpack",
+   "size": 0,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 827
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 98,
+     "lps": 1223
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 569
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 99,
+     "lps": 628
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 540
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 540
+    }
+   }
+  },
+  {
+   "family": "binpack",
+   "size": 1,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 95,
+     "lps": 2267
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 86,
+     "lps": 3132
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 98,
+     "lps": 1138
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 98,
+     "lps": 1411
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1440
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1440
+    }
+   }
+  },
+  {
+   "family": "seqprec",
+   "size": 0,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 586
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 95,
+     "lps": 565
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 522
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 95,
+     "lps": 491
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 402
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 90,
+     "lps": 387
+    }
+   }
+  },
+  {
+   "family": "seqprec",
+   "size": 1,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 80,
+     "lps": 3179
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 81,
+     "lps": 3281
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 90,
+     "lps": 2144
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 95,
+     "lps": 2180
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 98,
+     "lps": 1217
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 95,
+     "lps": 1349
+    }
+   }
+  },
+  {
+   "family": "mkp",
+   "size": 0,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1270
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1393
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 890
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 890
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 757
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 757
+    }
+   }
+  },
+  {
+   "family": "mkp",
+   "size": 1,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1984
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 2016
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1556
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1556
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1155
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1155
+    }
+   }
+  },
+  {
+   "family": "stable",
+   "size": 0,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 245
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 245
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 245
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 245
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 493
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 493
+    }
+   }
+  },
+  {
+   "family": "stable",
+   "size": 1,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 301
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 301
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 301
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 301
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 638
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 638
+    }
+   }
+  },
+  {
+   "family": "mknap",
+   "size": 0,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1831
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 31,
+     "lps": 1995
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 304
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 87,
+     "lps": 284
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 341
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 341
+    }
+   }
+  },
+  {
+   "family": "mknap",
+   "size": 1,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 3039
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 10,
+     "lps": 3107
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 281
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 85,
+     "lps": 266
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 327
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 327
+    }
+   }
+  },
+  {
+   "family": "setcover",
+   "size": 0,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 222
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 222
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 222
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 222
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 220
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 220
+    }
+   }
+  },
+  {
+   "family": "setcover",
+   "size": 1,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 767
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 767
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 767
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 767
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 550
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 550
+    }
+   }
+  },
+  {
+   "family": "vertexcover",
+   "size": 0,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 493
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 493
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 493
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 493
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 493
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 493
+    }
+   }
+  },
+  {
+   "family": "vertexcover",
+   "size": 1,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1500
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1500
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1500
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1500
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1500
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 1500
+    }
+   }
+  },
+  {
+   "family": "cover_card",
+   "size": 0,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 227
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 227
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 227
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 227
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 229
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 228
+    }
+   }
+  },
+  {
+   "family": "cover_card",
+   "size": 1,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 64,
+     "lps": 5447
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 60,
+     "lps": 5639
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 64,
+     "lps": 5447
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 60,
+     "lps": 5639
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 89,
+     "lps": 2005
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 86,
+     "lps": 2341
+    }
+   }
+  },
+  {
+   "family": "ufl",
+   "size": 0,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 206
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 206
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 206
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 206
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 200
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 200
+    }
+   }
+  },
+  {
+   "family": "ufl",
+   "size": 1,
+   "results": {
+    "D_frac|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 283
+    },
+    "D_frac|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 283
+    },
+    "D_fracP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 283
+    },
+    "D_fracP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 283
+    },
+    "D_coefP|True": {
+     "n": 100,
+     "ok": 100,
+     "lps": 211
+    },
+    "D_coefP|False": {
+     "n": 100,
+     "ok": 100,
+     "lps": 211
+    }
+   }
+  }
+ ]
+}
