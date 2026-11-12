@@ -1,7 +1,6 @@
 # Ohne Suchbaum zur ganzzahligen Lösung: Runden, Tauchen, Pump – Streamlit-Demo
 
-<!-- Nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-primalheuristiken-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-primalheuristiken-demo.streamlit.app/)**
 
 Teil der Reihe **Exakte Suche erklärt: Rucksack und Cutting Stock** der Website „Sebastian Hanisch – Operations Research und Machine Learning“, Nachfolger von
 [branch-cut-demo](../branch-cut-demo) (gleicher Zweck, andere Bauweise: eine zulässige ganzzahlige Lösung ohne den Suchbaum). Die Schwäche des Vorgängers, die dieses Stück sichtbar macht:
